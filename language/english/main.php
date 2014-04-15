@@ -52,4 +52,10 @@ define("TF_LOGO_BGCOLOR_DESC", "Logo background color");
 define("TF_FONT_FAMILY", "Font family");
 define("TF_FONT_FAMILY_DEFAULT","\"Helvetica Neue\",Helvetica,Arial,sans-serif");
 define("TF_FONT_FAMILY_DESC", "CSS font-family setup.ex:".TF_FONT_FAMILY_DEFAULT);
+define("TF_USE_SHADOW_LOGO", " Display logo shadow?");
+define("TF_USE_SHADOW_LOGO_DESC", "");
+define("TF_USE_CONTAINER", "user class=\"container\"?");
+define("TF_USE_CONTAINER_DESC", "Only for BootStrap mode. if \"No\", use class=\"container-fluid\".");
+define("TF_FOOTER_BG_CSS", "Footer background CSS setup.");
+define("TF_FOOTER_BG_CSS_DESC", "Footer background CSS setup");
 ?>

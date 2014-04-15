@@ -125,6 +125,7 @@ div.comText {
   width: 545px;
   height:250px;
   overflow: hidden;
+  line-height:180%;
 }
 
 div.comText img {

@@ -5,6 +5,10 @@ body {
   padding-top: 0px;
 }
 
+p {
+  line-height:180%;
+}
+
 .navbar{
   margin-bottom:0px;
 }

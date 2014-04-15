@@ -12,20 +12,33 @@
       <!-- 頁面容器 -->
 
       <{if $theme_kind=="bootstrap"}>
-        <div class="container-fluid" style="margin-top:<{$margin_top}>px;">
+        <div <{if $use_container=='1'}>class="container"<{else}>class="container-fluid"<{/if}> style="margin-top:<{$margin_top}>px;">
       <{else}>
         <div id="xoops_theme_container" style="position:relative;width:<{$theme_width}>px;margin:<{$margin_top}>px auto 0 auto;padding:0px;">
       <{/if}>
 
-        <div id="xoops_content" style="width:auto;" <{if $use_shadow=='1'}>class="xoops_content_shadow"<{/if}>>
-          <!-- 頁首 -->
-          <{includeq file="$theme_name/tpl/header.html"}>
+        <div id="xoops_content" style="width:auto;" <{if $use_shadow=='1' and $shadow_include_logo=='1'}>class="xoops_content_shadow"<{/if}>>
 
-          <!-- 載入布局 -->
-          <{includeq file="$xoops_rootpath/modules/tadtools/themes_tpl/$theme_type.html"}>
+          <!-- logo -->
+          <{if $logo_img and $logo_position=="page"}>
+            <div style="background-color:<{$logo_bgcolor}>">
+              <{includeq file="$xoops_rootpath/modules/tadtools/themes_tpl/logo.html"}>
+            </div>
+          <{/if}>
 
-          <!-- 頁尾 -->
-          <{includeq file="$theme_name/tpl/footer.html"}>
+
+          <div id="xoops_content_display" style="width:auto;" <{if $use_shadow=='1' and $shadow_include_logo=='0'}>class="xoops_content_shadow"<{/if}>>
+
+            <!-- 頁首 -->
+            <{includeq file="$theme_name/tpl/header.html"}>
+
+            <!-- 載入布局 -->
+            <{includeq file="$xoops_rootpath/modules/tadtools/themes_tpl/$theme_type.html"}>
+
+            <!-- 頁尾 -->
+            <{includeq file="$theme_name/tpl/footer.html"}>
+
+          </div>
         </div>
       </div>
 

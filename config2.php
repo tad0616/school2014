@@ -6,11 +6,27 @@ $theme_config[$i]['desc']=TF_SHOW_VAR_DESC;
 $theme_config[$i]['type']="yesno";
 $theme_config[$i]['default']="0";
 
+//外框是否套用 container
+$i++;
+$theme_config[$i]['name']="use_container";
+$theme_config[$i]['text']=TF_USE_CONTAINER;
+$theme_config[$i]['desc']=TF_USE_CONTAINER_DESC;
+$theme_config[$i]['type']="yesno";
+$theme_config[$i]['default']="0";
+
 //外框是否套用陰影
 $i++;
 $theme_config[$i]['name']="use_shadow";
 $theme_config[$i]['text']=TF_USE_SHADOW;
 $theme_config[$i]['desc']=TF_USE_SHADOW_DESC;
+$theme_config[$i]['type']="yesno";
+$theme_config[$i]['default']="1";
+
+//外框是否包含logo圖
+$i++;
+$theme_config[$i]['name']="shadow_include_logo";
+$theme_config[$i]['text']=TF_USE_SHADOW_LOGO;
+$theme_config[$i]['desc']=TF_USE_SHADOW_LOGO_DESC;
 $theme_config[$i]['type']="yesno";
 $theme_config[$i]['default']="1";
 
@@ -20,7 +36,7 @@ $theme_config[$i]['name']="font_family";
 $theme_config[$i]['text']=TF_FONT_FAMILY;
 $theme_config[$i]['desc']=TF_FONT_FAMILY_DESC;
 $theme_config[$i]['type']="text";
-$theme_config[$i]['default']=TF_FONT_FAMILY_DEFAULT;
+$theme_config[$i]['default']=constant('TF_FONT_FAMILY_DEFAULT');
 
 //上方logo底色
 $i++;
@@ -38,6 +54,14 @@ $theme_config[$i]['desc']=TF_FOOTER_IMG_DESC;
 $theme_config[$i]['type']="file";
 $theme_config[$i]['default']=XOOPS_URL."/themes/school2014/images/foot.jpg";
 
+
+//頁尾底圖CSS設定
+$i++;
+$theme_config[$i]['name']="foot_bg_css";
+$theme_config[$i]['text']=TF_FOOTER_BG_CSS;
+$theme_config[$i]['desc']=TF_FOOTER_BG_CSS_DESC;
+$theme_config[$i]['type']="text";
+$theme_config[$i]['default']="background-size:cover;background-repeat:repeat;";
 
 //頁尾高度
 $i++;

@@ -52,5 +52,11 @@ define("TF_LOGO_BGCOLOR_DESC", "上方LOGO區的底色");
 define("TF_FONT_FAMILY", "主要字型設定");
 define("TF_FONT_FAMILY_DEFAULT","\"Helvetica Neue\",Helvetica,Arial,\"微軟正黑體\",sans-serif");
 define("TF_FONT_FAMILY_DESC", "輸入字型名稱，有空白的部份需要用\"\"包起來。如：".TF_FONT_FAMILY_DEFAULT);
+define("TF_USE_SHADOW_LOGO", "陰影是否包含logo");
+define("TF_USE_SHADOW_LOGO_DESC", "當logo在滑動圖文之上時，是否仍要加上陰影？");
+define("TF_USE_CONTAINER", "外框是否套用 container");
+define("TF_USE_CONTAINER_DESC", "僅BootStrap模式有效。若否則採用預設的 container-fluid（可視範圍較大）");
+define("TF_FOOTER_BG_CSS", "頁尾底圖CSS設定");
+define("TF_FOOTER_BG_CSS_DESC", "可利用此處設定各種背景CSS設定，例如重複方式、位置...等");
 
 ?>
