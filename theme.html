@@ -12,12 +12,12 @@
       <!-- 頁面容器 -->
 
       <{if $theme_kind=="bootstrap"}>
-        <div <{if $use_container=='1'}>class="container"<{else}>class="container-fluid"<{/if}> style="margin-top:<{$margin_top}>px;">
+      <div <{if $use_container=='1'}>class="container"<{else}>class="container-fluid"<{/if}> style="margin-top:<{$margin_top}>px;">
       <{else}>
-        <div id="xoops_theme_container" style="position:relative;width:<{$theme_width}>px;margin:<{$margin_top}>px auto 0 auto;padding:0px;">
+      <div id="xoops_theme_container" style="position:relative;width:<{$theme_width}>px;margin:<{$margin_top}>px auto 0 auto;padding:0px;">
       <{/if}>
 
-        <div id="xoops_content" style="width:auto;" <{if $use_shadow=='1' and $shadow_include_logo=='1'}>class="xoops_content_shadow"<{/if}>>
+        <div id="xoops_theme_content" style="width:auto;" <{if $use_shadow=='1' and $shadow_include_logo=='1'}>class="xoops_content_shadow"<{/if}>>
 
           <!-- logo -->
           <{if $logo_img and $logo_position=="page"}>
@@ -27,7 +27,7 @@
           <{/if}>
 
 
-          <div id="xoops_content_display" style="width:auto;" <{if $use_shadow=='1' and $shadow_include_logo=='0'}>class="xoops_content_shadow"<{/if}>>
+          <div id="xoops_theme_content_display" style="width:auto;" <{if $use_shadow=='1' and $shadow_include_logo=='0'}>class="xoops_content_shadow"<{/if}>>
 
             <!-- 頁首 -->
             <{includeq file="$theme_name/tpl/header.html"}>
