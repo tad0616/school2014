@@ -123,7 +123,7 @@ div.comText {
   table-layout: fixed;
   word-wrap: break-word;
   width: 545px;
-  height:250px;
+  min-height:250px;
   overflow: hidden;
   line-height:180%;
 }

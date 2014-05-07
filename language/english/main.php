@@ -58,4 +58,11 @@ define("TF_USE_CONTAINER", "user class=\"container\"?");
 define("TF_USE_CONTAINER_DESC", "Only for BootStrap mode. if \"No\", use class=\"container-fluid\".");
 define("TF_FOOTER_BG_CSS", "Footer background CSS setup.");
 define("TF_FOOTER_BG_CSS_DESC", "Footer background CSS setup");
+
+define('TF_LEFT_SPARATE','Left separate line');
+define('TF_LEFT_SPARATE_DESC','Display separate line between left block zone and main content?');
+define('TF_RIGHT_SPARATE','Right separate line');
+define('TF_RIGHT_SPARATE_DESC','Display separate line between main content and right block zone?');
+define('TF_SPARATE_STYLE','Separate line style');
+define('TF_SPARATE_STYLE_DESC','Setup separate line style.');
 ?>
