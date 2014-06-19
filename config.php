@@ -6,6 +6,9 @@ $theme_change=1;
 //預設佈景種類 bootstrap or html
 $theme_kind='bootstrap';
 
+//引入哪些選單？ all(含 my_menu,admin,user),my_menu,admin,user
+$menu_var_kind='my_menu';
+
 /*
   tabs-1 版面基礎設定
  */
@@ -102,19 +105,19 @@ $config_enable['logo_left']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'
 $config_tabs[5]=1;
 
 //區塊標題文字大小[theme_css_blocks.html]，值：數值含單位
-$config_enable['bt_text_size']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'16px');
+$config_enable['bt_text_size']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'1.5em');
 //區塊標題縮排[theme_css_blocks.html]，值：數值，單位一律為 px
-$config_enable['bt_text_padding']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'33');
+$config_enable['bt_text_padding']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'0');
 //區塊標題文字顏色[theme_css_blocks.html]
-$config_enable['bt_text']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'#FFFFFF');
+$config_enable['bt_text']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'#6bbdff');
 //區塊標題背景顏色[theme_css_blocks.html]
-$config_enable['bt_bg_color']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'#FFFFFF');
+$config_enable['bt_bg_color']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'transparent');
 //區塊標題圓角設定[theme_css_blocks.html]，值： 1 （圓角）, 0 （直角）
-$config_enable['bt_radius']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'0');
+$config_enable['bt_radius']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'1');
 //區塊標題設定按鈕[theme_css_blocks.html]，值： right （右）, left （左）
 $config_enable['block_config']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'right');
 //區塊標題背景圖[theme_css_blocks.html]
-$config_enable['bt_bg_img']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'green.gif');
+$config_enable['bt_bg_img']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'transparent');
 //區塊標題背景重複[theme_css_blocks.html]，值： 1 （重複）, 0 （不重複）
 $config_enable['bt_bg_repeat']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'1');
 //區塊整體樣式手動設定[theme_css_blocks.html]，值： 1 （重複）, 0 （不重複）
