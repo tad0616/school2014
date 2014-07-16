@@ -18,7 +18,7 @@ $config_tabs[1]=1;
 //版面類型[自]，值： theme_type_1 ~ theme_type_8
 $config_enable['theme_type']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'theme_type_2');
 //版面寬度[自]，值：若bootstrap模式，最大值為 12，若 html 模式，則輸入預設版面寬度，如： 980
-$config_enable['theme_width']=array('enable'=>1, 'min'=>'1' , 'max'=>'12' , 'require'=>1 , 'default'=>'12');
+$config_enable['theme_width']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>1 , 'default'=>'12');
 //內容區顏色[theme_type_x.html]
 $config_enable['base_color']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'#FFFFFF');
 //左區域顏色[theme_type_1.html]
