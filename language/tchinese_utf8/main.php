@@ -24,7 +24,7 @@ define("TF_OK",	"送出");
 define("TF_USER_REGIST",	"註冊");
 define("TF_USER_FORGET_PASS",	"忘記密碼");
 
-define("TF_BLOCK_CONFIG",	"設定本區塊");
+define("TF_BLOCK_CONFIG", "設定本區塊");
 define("TF_SYSTEM_CONFIG",	"系統偏好設定");
 define("TF_SYSTEM_MODADM",	"線上安裝更新");
 define("TF_MODULE_CONFIG",	"模組管理區");

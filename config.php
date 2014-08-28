@@ -7,7 +7,7 @@ $theme_change=1;
 $theme_kind='bootstrap';
 
 //引入哪些選單？ all(含 my_menu,admin,user),my_menu,admin,user
-$menu_var_kind='my_menu';
+$menu_var_kind='all';
 
 /*
   tabs-1 版面基礎設定
@@ -117,9 +117,9 @@ $config_enable['bt_radius']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'
 //區塊標題設定按鈕[theme_css_blocks.html]，值： right （右）, left （左）
 $config_enable['block_config']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'right');
 //區塊標題背景圖[theme_css_blocks.html]
-$config_enable['bt_bg_img']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'transparent');
+$config_enable['bt_bg_img']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'blue.gif');
 //區塊標題背景重複[theme_css_blocks.html]，值： 1 （重複）, 0 （不重複）
-$config_enable['bt_bg_repeat']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'1');
+$config_enable['bt_bg_repeat']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'0');
 //區塊整體樣式手動設定[theme_css_blocks.html]，值： 1 （重複）, 0 （不重複）
 $config_enable['block_style']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'');
 //區塊標題區樣式手動設定[theme_css_blocks.html]，值： 1 （重複）, 0 （不重複）
