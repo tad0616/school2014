@@ -131,4 +131,13 @@ $theme_config[$i]['text']=TF_FOOTER_STYLE;
 $theme_config[$i]['desc']=TF_FOOTER_STYLE_DESC;
 $theme_config[$i]['type']="textarea";
 $theme_config[$i]['default']="line-height:180%;text-align:center;";
+
+
+//我要加入的js或css
+$i++;
+$theme_config[$i]['name']="my_code";
+$theme_config[$i]['text']=TF_MY_CODE;
+$theme_config[$i]['desc']=TF_MY_CODE_DESC;
+$theme_config[$i]['type']="text";
+$theme_config[$i]['default']="";
 ?>

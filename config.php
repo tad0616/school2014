@@ -50,7 +50,7 @@ $config_enable['hover_color']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'requir
 
 /*
   tabs-2 背景圖
- */
+*/
 
 $config_tabs[2]=1;
 
@@ -68,7 +68,7 @@ $config_enable['bg_position']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'requir
 
 /*
   tabs-3 滑動圖片
- */
+*/
 
 $config_tabs[3]=1;
 
@@ -80,7 +80,7 @@ $config_enable['slide_height']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'requi
 
 /*
   tabs-4 logo圖
- */
+*/
 
 $config_tabs[4]=1;
 
@@ -100,7 +100,7 @@ $config_enable['logo_left']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'
 
 /*
   tabs-5 區塊標題列
- */
+*/
 
 $config_tabs[5]=1;
 
@@ -130,7 +130,7 @@ $config_enable['block_content_style']=array('enable'=>1, 'min'=>'' , 'max'=>'' ,
 
 /*
   tabs-6 導覽工具列
- */
+*/
 
 $config_tabs[6]=1;
 

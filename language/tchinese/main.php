@@ -65,4 +65,7 @@ define('TF_RIGHT_SPARATE','右區域分隔線');
 define('TF_RIGHT_SPARATE_DESC','右區域和主內容間是否加上分隔線');
 define('TF_SPARATE_STYLE','左右區域分隔線的樣式');
 define('TF_SPARATE_STYLE_DESC','左右區域分隔線的樣式');
+
+define('TF_MY_CODE','欲加入頁尾的CSS或JS語法');
+define('TF_MY_CODE_DESC','可自行載入CSS或JS');
 ?>
